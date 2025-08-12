@@ -12,7 +12,7 @@ The VBA can be triggered directly with a VBS file command without oppening the E
   ExcelFilePath = "C:\Users\ABCDE\Desktop\SAP_extraction.xlsm"
 
 'Input Module/Macro name within the Excel File
-  MacroPath = "Module1.test"
+  MacroPath = "Module1.Tcode_extraction"
 
 'Create an instance of Excel
   Set ExcelApp = CreateObject("Excel.Application")
