@@ -6,6 +6,8 @@ Dim StartCell As Range
 Set sht = Worksheets("Sheet1")
 Set StartCell = Range("A1")
 
+DateString = Format(Now, "yymmdd")
+
 last_row = sht.Cells(sht.Rows.Count, StartCell.Column).End(xlUp).Row
 If last_row > 1 Then
 
